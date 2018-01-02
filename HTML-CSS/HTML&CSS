@@ -1,0 +1,163 @@
+The code in written in codepen : you can check it here > https://codepen.io/bitterhalf/pen/mpwbQK?editors=1100
+ or below:
+ *********HTML**********
+ 
+ <!-- Total 60 excercises -->
+<div class="wrapper">
+  <div class ="mobile">
+    <header>
+      <div class="camera">
+        <div class="inside_lens"></div>
+      </div>
+      <div class="hearing_speaker"></div>
+    </header>
+    <div class="screen">
+        <div class="content">
+        <h2>CatPhotoApp</h2>
+        <p>Click here for 
+          <a href="#">more photos </a>
+        </p>
+        <a href="#">
+          <img class="smaller-image" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
+        </a>
+        <div class="silver_background">
+          <p>Things cats love:</p>
+          <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+          </ul>
+          <p>Top 3 things cats hate:</p>
+          <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+          </ol>
+        </div>
+        <form action="/submit-cat-photo" id="cat-photo-form">
+          <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+          <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+          <label><input type="checkbox" name="personality" checked> Loving</label>
+          <label><input type="checkbox" name="personality"> Lazy</label>
+          <label><input type="checkbox" name="personality"> Energetic</label>
+          <input type="text" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+        </div>
+    </div>
+    <div class ='footer'>
+      <div class ="home_button"></div>
+    </div>
+  </div>
+</div>
+ 
+ **********CSS***********
+ 
+ body{
+  font-family:Monospace;
+  font-size:16px;
+}
+.wrapper{
+  border:none;
+  width:380px;
+  height:700px;
+  margin:auto;
+}
+.mobile{
+  border:5px solid #B22222;
+  border-radius:49px;
+  background-color:#FFFAFA;
+  width:325px;
+  height:670px;
+  margin:auto;
+  margin-top:15px;
+  position:relative;
+}
+header{
+  width:150px;
+  height:55px;
+  margin:auto;
+  position:absolute;
+  top:1%;
+  left:20%;
+}
+.camera{
+  width:10px;
+  height:10px;
+  border:none;
+  border-radius:100%;
+  margin:auto;
+  position:absolute;
+  bottom:25%;
+  left:20%;
+}
+.inside_lens{
+  width:8px;
+  height:8px;
+  border:1px solid rgb(0, 0, 0);
+  background-color:#000;
+  border-radius:50%; 
+}
+.hearing_speaker{
+  width:80px;
+  height:4px;
+  border:1px groove #000;
+  border-radius:15px;
+  background-color:#000;
+  margin:auto;
+  position:absolute;
+  bottom:30%;
+  right:7%;
+}
+.screen{
+   background-color:#fff;
+   border:2px ridge #000;
+   border-radius:2px;
+   width:290px;
+   height:520px;
+   margin:auto;
+   position:absolute;
+   top:50px;
+   bottom:50px;
+   right:16px;
+   overflow-y:scroll;
+   padding:1px;
+  }
+.footer{
+  width:150px;
+  height:80px;
+  position:Absolute;
+  bottom:0%;
+  left:27%;
+}
+.home_button{
+  border:4px solid #808080;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  position:absolute;
+  top:22%;
+  left:38%;
+}
+h2{
+  font-family:Lobster,Monospace;
+  font-size:26px;
+  color:red;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+.smaller-image{
+  width:100px;
+  border:10px solid green;
+  border-radius:50%;
+}
+.silver_background{
+  background-color:silver;
+}
+.content{
+  padding:5px;
+}
