@@ -1,0 +1,77 @@
+############A tribute to Saadat hassan Manto ###################
+#########Here is the link of the codepen: https://codepen.io/bitterhalf/pen/ppdPjW?editors=1000  ##############
+
+###########Here is the code ################
+
+##############HTML & BootStrap ###############################
+
+<div class='container' >
+    <div class="jumbotron">
+      <header>
+        <h1 class="text-primary text-center">Saadat Hassan Manto </h1>
+        <p class="text-info text-center">A Man who is still alive in the society </p>
+        <figure class="figure">
+        <img class="figure-img img-fluid " src="https://s4.scoopwhoop.com/anj/sadat7/639456582.jpg" alt="picture of manto" />
+          <figcaption class="figure-caption">Saadat Hasan Manto</figcaption>
+       </figure>
+         <p class="lead">Saadat Hasan Manto was a Pakistani writer, playwright and author considered among the greatest writers of short stories in South Asian history. </p>
+        <p class="lead">He produced 22 collections of short stories, 1 novel, 5 series of radio plays, 3 collections of essays, 2 collections of personal sketches and his best short stories are held in high esteem by writers and critics.</p>
+        <p class="lead"> Manto was known to write about the atrocious truths that no one dared to talk about. Manto is best known for his stories about the partition of the subcontinent immediately following independence in 1947.</p>
+      </header>
+      <section>
+        <h3>Here is the timeline of Manto's Work:</h3>
+        <ul>
+          <li><strong>1912</strong> - Born in Paproudi village of Samrala, in the Ludhiana district of the Punjab in a Muslim family of barristers(now,with India)</li>
+          <li><strong>1941</strong> - He accepted the job of writing for Urdu Service of All India Radio </li>
+          <li><strong>1948 </strong> - He moved to Pakistan after the partition of India in 1947</li>
+          <li><strong>British India-Pakistan</strong> - Manto faced trial for obscenity in his writings in India and Pakistan, under section 292 of the Indian Penal Code and the Pakistan Penal Code in Pakistan’s early years.</li>
+          <ul>
+            <li><strong>In British India</strong> - Three times  for ‘Dhuan,’ ‘Bu,’ and ‘Kali Shalwar’</li>
+            <li><strong>In Pakistan</strong> - Three times ‘KholDo,’ ‘Thanda Gosht,’ and ‘Upar Neeche Darmiyaan’</li>         </ul> 
+       </ul>
+      </section>
+          <blockquote class="blockquote text-center mb-0">
+            <small class="display-6">"A writer picks up his pen only when his sensibility is hurt." </small>
+            <footer class="blockquote-footer">Manto to a court judge</footer>
+            <small>“If you cannot bear these stories then the society is unbearable. Who am I to remove the clothes of this society, which itself is naked. I don't even try to cover it, because it is not my job, that's the job of dressmakers.” </small>
+            <footer class="blockquote-footer">Saadat Hasan Manto</footer>
+              <small>
+    "In the name of God, the Compassionate, the Merciful
+    Here lies Saadat Hasan Manto and with him lie buried all the secrets and mysteries of the art of short-story writing....
+    Under tons of earth he lies, still wondering who among the two is greater short-story writer: God or He.”  </small>
+            <footer class="blockquote-footer">Saadat Hasan Manto</footer>
+            </blockquote>
+          <samp>For more quotes: 
+            <a href="https://www.goodreads.com/author/quotes/263878.Saadat_Hasan_Manto" target="_blank">Check here</a>
+
+            </samp>
+          <section>
+            <h5>If you have time, you should read more about this incredible human being on his
+              <a href="https://en.wikipedia.org/wiki/Saadat_Hasan_Manto" target="_blank"> Wikipedia entry </a> 
+            </h5>
+          </section>
+      </div>
+      <footer class="text-center">
+           <hr>
+           <p>Written and Codded by
+             <a href="https://codepen.io/bitterhalf" target="_blank">Sajad Hamid Gada</a>  
+            </p>  
+     </footer>
+ </div>
+
+  
+
+
+###############End of HTML & BootStrap ########################
+
+############### CSS #############################
+
+/* i.e 9 : make the responsive image work */
+.img-fluid{
+  width: 100% \9; 
+}
+body{
+  margin-top:25px;
+}
+
+############## End of CSS #######################
