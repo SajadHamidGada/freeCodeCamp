@@ -1,0 +1,227 @@
+############A Portfolio MockUP ###################
+#########Here is the link of the codepen: https://codepen.io/bitterhalf/pen/BJmveN?editors=0100  ##############
+
+###########Here is the code ################
+
+##############HTML, Flex & GRID ###############################
+
+
+<div class="container">
+  <!-- Header -->
+  <header>
+   <nav>
+     <a class="navigationlink" href="#about" >About</a>
+     <a class="navigationlink" href="#portfolio"  >Portfolio</a>
+     <a class="navigationlink" href="#contact">contact</a>
+   </nav>
+    <div class="logo">
+      <h1>Sajad Hamid Gada</h1>
+    </div> 
+    <div class="resume">
+      <a class="navigationlink" href="Resume.pdf" download>Resume</a>
+  </header>
+    <!-- About -->
+   <main>
+    <div class="title" id="about">
+        <h1> Hello!</h1>
+    </div>
+    <div class="intro"><p>I'm a <span id="type"> FreeCodeCamp Alumia</span></p></div>
+     <div class="socialcontact"><h2>Connect with me here:</h2></div>
+    <div class="socialicons">
+      <a href="https://codepen.io/dashboard?type=view&opts_itemType=pen&opts_filter=all&opts_orderBy=id&opts_orderDirection=0&opts_tag=0&displayType=grid&previewType=iframe&page=0"><i class="fa fa-codepen" target="_blank"></i></a>
+     <a href=""> <i class="fa fa-free-code-camp" target="_blank"></i></a>
+     <a href="https://github.com/SajadHamidGada"> <i class="fa fa-github" target="_blank"></i></a>
+     <a href="https://medium.com/@_bitterhalf"> <i class="fa fa-medium" target="_blank"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+  </main>
+<!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+    <div class="card">Project 1</div>
+    <div class="card">Project 2</div>
+    <div class="card">Project 3</div>
+    <div class="card">Project 4</div>
+    <div class="card">Project 5</div>
+    <div class="card">Project 6</div>
+  </section>
+ <!-- footer -->
+     <footer id="contact">
+       <h2>Say hi, to me on<a class="mail" href="mailto:sajadgada@outlook.com" >sajad.gada@outlook.com</a></h2>
+    <div class="creator">
+      <hr />
+      <br /><br />
+      Written & codded by Sajad Hamid Gada 
+    </div>
+  </footer>
+</div>
+  
+
+
+###############End of HTML,Flex & Grid ########################
+
+############### CSS #############################
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  position:relative;
+}
+/* Header */
+header{
+  border-bottom:1px ridge rgb(77,77,77);
+  height:105px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color:#5486F6;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:999;
+  
+}
+.logo{
+  font-family: 'Abril Fatface', cursive;
+  font-size:28px;
+}
+nav{
+  height:45px;
+  display:flex;
+  align-items:center;
+   margin:8px;
+}
+a{
+  color:rgb(44,44,44);
+  padding:5px;
+  margin:8px; 
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+@media only screen and (max-width:480px){
+ 
+  nav{
+  flex-direction:column;
+}
+  a{
+    margin:2px;
+    padding:2px;
+  }
+  .navigationlink{
+    display:none;
+  }
+  .portfolio{
+    color:red;
+    width:100%;
+    display:flex !important;
+    flex-direction:column; 
+    justify-content:center;
+    
+  }
+  .card{
+    height:60%;
+    margin:5px;
+    padding:25px !important;
+  }
+}
+/* About */
+main{
+  height:350px;
+  font-size:24px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
+  padding:25px;
+  background-color:#4F71F9;
+  position:relative;
+  top:61px;
+  margin-top:45px;
+}
+.socialicons{
+  border:3px inset black;
+  padding:5px;
+}
+.fa{
+  font-size:24px;
+  color:silver;
+  margin:5px;
+  padding:2px;
+}
+.fa:hover{
+  color:yellow;
+}
+#type{
+  color: darkblue;
+    font-family: 'Amatic SC', cursive;
+  font-size:36px;
+}
+/* portfolio */
+.portfolio{
+  height:800px;
+  display:grid;
+  grid-template:repeat(2,1fr) / repeat(3,1fr);
+  grid-gap:2px;
+  text-align:center;
+  padding:1px;
+  margin-top:62px;
+  background-color:#115a45;
+}
+.card{
+  border:1px solid lime;
+  background-color:silver;
+  padding:12px;
+}
+/* footer */
+footer{
+  display:flex;
+  flex-direction:column;
+  height:250px;
+  background-color:#2e2e2e;
+  color:#428bca ;
+  align-items:center;
+  justify-content:center;
+  padding:5px;
+}
+.mail{
+  color:#428bca ;
+}
+
+
+############## End of CSS #######################
+
+###########JS-- Type.js ##########################
+
+//######  Type.JS #####
+  var typed3 = new Typed('#type', {
+    strings: ["","Front-End-Developer","Technology Enthuist","Network Engineer","Procrastinator"],
+    typeSpeed: 100,
+    backSpeed: 75,
+    smartBackspace: true,
+    loop: false,
+  });
+
+
+
+############End of Type.js#########################
